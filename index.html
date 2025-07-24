@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Whatsapp Flotante -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=1169395753&text=Hola!Soy%20Luis,%20como%20puedo%20ayudarte." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Luis Trech</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PROYECTOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Perfil.jpg" alt="">
+            </div>
+            <h1>Luis Trech</h1>
+            <h2>Desarrollador Full Stack</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/?locale=es_ES"><i class="fa-brands fa-facebook-f"></i></a>
+                
+                <a href="https://www.linkedin.com/in/luis-trech-181142284/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Ltrech" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Luis Trech.</span> Busco obtener un puesto de trabajo en el cual pueda brindándoles mis mejores conocimientos y mi voluntad. Para realizar las tareas que se me designen. Ampliando mis conocimientos y brindándole mi experiencia en todo lo que sea necesario. Contando con toda mi disponibilidad horaria Full Time..</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            05-06-1981
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            11-6939-5753
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            luistrech8@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            La Querencia 2225, Burzaco, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador Full Stack</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Lenjuajes -->
+                <div class="col">
+    <h3>Lenguajes</h3>
+    <div class="contenedor-intereses">
+        <div class="interes">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+        </div>
+        <div class="interes">
+            <i class="fa-brands fa-css3-alt"></i>
+            <span>CSS</span>
+        </div>
+        <div class="interes">
+            <i class="fa-brands fa-js"></i>
+            <span>JavaScript</span>
+        </div>
+        <div class="interes">
+            <i class="fa-brands fa-java"></i>
+            <span>Java</span>
+        </div>
+        <div class="interes">
+            <i class="fa-solid fa-code"></i>
+            <span>C#</span> <!-- corregido también el nombre -->
+        </div>
+        <div class="interes">
+            <i class="fa-brands fa-python"></i>
+            <span>Python</span> <!-- corregida ortografía -->
+        </div>
+        <div class="interes">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+        </div>
+        <div class="interes">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span>Postman</span>
+        </div>
+    </div>
+</div>
+
+    </div>
+                <a class="boton-cv" href="https://drive.google.com/file/d/1a8tkQ_BHk3KLAhLzF0mnewQJsgLd_Ux3/view?usp=sharing" target="_blank">
+    Descargar CV <i class="fa-solid fa-download"></i>
+    <span class="overlay"></span>
+</a>
+</div>
+    </section>
+
+    <!-- SECCION Habilidades -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Mis Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>GitHub</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C##</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional habilidades -->
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Postman</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Tecnicatura Universitaria en Programacion</h4>
+                        <span class="casa">Universidad de Almirante Brown</span>
+                        <span class="fecha">En curso 90 %</span>
+                        <p>Adeudo 3 materias</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollador de Softward</h4>
+                        <span class="casa">IFTS N°24, CABA</span>
+                        <span class="fecha">95% de la carrera Cursada</span>
+                        <p>Estado: En Curso</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollador Java Inicial</h4>
+                        <span class="casa">UTN - Argentina Programa 4.0</span>
+                        <span class="fecha">2023</span>
+                        <p>Completo</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Analista de Sistmas, programador en Visual Basic</h4>
+                        <span class="casa">Instituo Lomas de Zamora</span>
+                        <span class="fecha">2000 - 2003</span>
+                        <p>Finalizado</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Reparador de PC y redes informaticas</h4>
+                        <span class="casa">Instituto Quilmes</span>
+                        <span class="fecha">2004</span>
+                        <p>Finalizado</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Programador Full Stack</h4>
+                        <span class="casa">Crea Salud Mental</span>
+                        <span class="fecha">2024</span>
+                        <p>Se desarrollo por completo una web para la Psicologa Cecilia Rea, tanto el front como el back end</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Mantenimiento de equipos informaticos</h4>
+                        <span class="casa">Cyber Manager</span>
+                        <span class="fecha">2009 - 2025</span>
+                        <p>Mantenimiento de sistemas Informaticos, armado de redes locales, venta de insumos
+                            para computacion, atencion al cliente.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Back end Developer</h4>
+                        <span class="casa">El Parrillon</span>
+                        <span class="fecha">2005</span>
+                        <p>Programador back end junior en el desarrollo del sistema en Visual Basic 6 para el Restaurante "EL PARRILLON"</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS</h2>
+            <div class="galeria">
+                <a href="https://github.com/Ltrech/Psicologa_Con_Backend" target="_blank">
+                    <div class="proyecto">
+                    <img src="img/Node-1.png" alt="">
+                    <div class="overlay">
+                        <h3>Luis Trech</h3>
+                        <p>Programador</p>
+                    </div>
+                </div>
+                </a>
+                <a href="https://github.com/Ltrech/TP-UNAB-VentaPasajes">
+                <div class="proyecto">
+                    <img src="img/java-concurrency.png" alt="">
+                    <div class="overlay">
+                        <h3>Luis Trech</h3>
+                        <p>Programador</p>
+                    </div>
+                </div>
+                </a>
+                <a href="https://github.com/Ltrech/PaginaCyber">
+                <div class="proyecto">
+                    <img src="img/HTML YCSS.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Luis Trech</h3>
+                        <p>Programador</p>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form id="contactForm" action="https://formspree.io/f/xvgpevbz" method="POST">
+                        <input type="text" name="nombre" placeholder="Tú Nombre" required>
+                        <input type="text" name="telefono" placeholder="Número telefónico" required>
+                        <input type="email" name="email" placeholder="Dirección de correo" required>
+                        <input type="text" name="tema" placeholder="Tema" required>
+                        <textarea name="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                        <button type="submit">
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3275.515811544863!2d-58.369435!3d-34.8181215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1753135739339!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                La Querencia N° 2225
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame al: 11-6939-5753
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email:luistrech8@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <h2>Luis Trech - Desarrollador Full Stack</h2>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
