@@ -314,7 +314,7 @@ html, body {
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .htmlcss{
@@ -323,7 +323,7 @@ html, body {
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .github{
@@ -359,7 +359,7 @@ html, body {
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .trabajo{
@@ -368,7 +368,7 @@ html, body {
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .Postman{
@@ -377,7 +377,7 @@ html, body {
 }
 @keyframes Postman {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 95%;}
 }
 
 .skills .skill .dedicacion{
@@ -386,7 +386,7 @@ html, body {
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .proyect{
@@ -395,7 +395,7 @@ html, body {
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 95%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
